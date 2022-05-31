@@ -1,3 +1,4 @@
+// updated //
 how many remote servers are connected > git remote -v
 
 take all changes > git fetch origin

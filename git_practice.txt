@@ -1,0 +1,45 @@
+how many remote servers are connected > git remote -v
+
+take all changes > git fetch origin
+
+checkout > git checkout 2020b/master
+
+create new branch > git checkout -b 2020b/abc
+/* this is child of master branch */
+
+add changes in branch > git reset --hard origin/2020b/master
+
+clone project > git clone ssh_Url
+
+
+--- cherry-pick
+
+git reset --hard origin /master
+
+git cherry-pick commitIdFirst^ ..commitIdLast
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////  Short DEMO /////
+create new branch > git checkout -b 2020b/abc
+git add .
+git commit -m "message"
+git push -f origin 2020b/abc
+//////
